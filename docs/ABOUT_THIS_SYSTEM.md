@@ -80,7 +80,7 @@ TruEdge is more than code—it’s a compositional language for signal fusion, s
 ---
 
 ## 🧬 Legacy & Community
-
+📖 For full system narrative, see [ABOUT_THIS_SYSTEM.md](docs/ABOUT_THIS_SYSTEM.md)
 TruEdge is evolving toward Medallion-style modular intelligence—where regime adaptation, pattern scoring, and visual overlays respond in real time. Whether you’re remixing a module, forking a shell, or contributing a drop, welcome aboard.
 
 This system lives, breathes, and evolves by orchestration.
