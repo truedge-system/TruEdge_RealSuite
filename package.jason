@@ -1,0 +1,20 @@
+{
+  "name": "@truedge/realsuite",
+  "version": "1.0.0",
+  "description": "TruEdge x TradingAgents x Claude FSI — Unified Financial Intelligence Stack",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "lint": "eslint api/**/*.js truedge.config.js",
+    "test": "node --test tests/",
+    "analyze": "python3 packages/trading-agents/engine.py"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "vercel": "latest"
+  },
+  "license": "Apache-2.0"
+}
