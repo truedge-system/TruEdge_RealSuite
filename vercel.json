@@ -1,17 +1,7 @@
 {
-  "version": 2,
-  "name": "truedge-realsuite",
-  "builds": [
-    { "src": "api/**/*.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/api/analyze",     "dest": "/api/analyze.js" },
-    { "src": "/api/advise",      "dest": "/api/advise.js" },
-    { "src": "/api/orchestrate", "dest": "/api/orchestrate.js" }
-  ],
   "functions": {
-    "api/analyze.js":     { "maxDuration": 120 },
-    "api/advise.js":      { "maxDuration": 60  },
+    "api/analyze.js": { "maxDuration": 120 },
+    "api/advise.js": { "maxDuration": 60 },
     "api/orchestrate.js": { "maxDuration": 180 }
   }
 }
